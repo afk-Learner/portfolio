@@ -1269,7 +1269,10 @@ img {
         font-size: 13px;
     }
 }
-
+a[href^="tel:"],
+a[href^="mailto:"] {
+  color: blue;
+}
 
 .learn-more-btn {
     opacity: 0;
