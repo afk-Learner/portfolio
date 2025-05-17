@@ -549,7 +549,7 @@ header .container {
     transition: var(--transition);
 }
 
-.filter-btn.active, .filter-btn:hover {
+.filter-btn.active {
     background-color: var(--primary-color);
     color: #fff;
 }
