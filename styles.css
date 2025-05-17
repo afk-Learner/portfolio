@@ -551,7 +551,7 @@ header .container {
 
 .filter-btn.active {
     background-color: var(--primary-color);
-    color: #fff;
+    color: #0000;
 }
 
 .projects-grid {
