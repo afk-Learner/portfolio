@@ -1269,3 +1269,24 @@ img {
         font-size: 13px;
     }
 }
+
+
+.learn-more-btn {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: inline-block;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.project-item:hover .learn-more-btn {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
